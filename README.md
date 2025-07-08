@@ -48,7 +48,7 @@ The sample files are attached in this repository.
 
 
 ## Troubleshooting & Tips
-Check the path of your g++ compiler by entering "which g++" in mingw64.exe terminal.
+Check the path of your g++ compiler by entering "which g++" in cmd.exe(Windows default terminal).
 Make sure "Path" is set before opening vs code.
 
 
