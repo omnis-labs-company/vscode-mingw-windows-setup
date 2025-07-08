@@ -18,9 +18,11 @@ After downloading the installer, install MinGW-w64.
 And then, open C:\msys64\mingw64.exe
 Once opening the terminal, install packages like compilers, debuggers, and opencv 
 
+```bash
 pacman -S mingw-w64-x86_64-toolchain
 pacman -S mingw-w64-x86_64-gdb
 pacman -S mingw-w64-x86_64-opencv
+```
 
 Note the installation path (e.g., C:\msys64\mingw64\bin).
 After installation, configure environment variables.
