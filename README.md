@@ -16,6 +16,7 @@ https://www.mingw-w64.org/getting-started/msys2/
 
 After downloading the installer, install MinGW-w64.
 And then, open C:\msys64\mingw64.exe
+
 Once opening the terminal, install packages like compilers, debuggers, and opencv 
 
 ```bash
