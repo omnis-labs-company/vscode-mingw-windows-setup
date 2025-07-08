@@ -1,11 +1,10 @@
 # vscode-opencv-mingw-windows-guide
-
 MinGW(MSYS2) + OpenCV + CPP + VS Code on Windows: Complete Setup & Configuration Guide
 A step-by-step guide to setting up a modern C/C++ development environment on Windows using MinGW-w64 and Visual Studio Code.
 
 This repository guides you through configuring a powerful and productive C/C++ development workflow on Windows, using MinGW-w64 environment as your development environment and Visual Studio Code as your editor and debugger.
 
-Prerequisites
+## Prerequisites
 Windows OS
 Visual Studio Code
 MinGW-w64
@@ -30,30 +29,22 @@ Edit the PATH system variable to include the MinGW bin directory (e.g., C:\msys6
 
 
 Open CMD and run:
-
-sh
-
-
-Copy code
+```bash
    gcc --version
    g++ --version
-   ```
-   to confirm successful installation.
+```
+to confirm successful installation.
 
----
 
 ## Setting Up Visual Studio Code
-
 1. Install C/C++ extension for VS Code.
 2. Create a project folder and open it in VS Code.
-
----
 
 ## VS Code Configuration Files
 The sample files are attached in this repository.
 
 
-Troubleshooting & Tips
+## Troubleshooting & Tips
 Check the path of your g++ compiler by entering "which g++" in mingw64.exe terminal.
 Make sure "Path" is set before opening vs code.
 
